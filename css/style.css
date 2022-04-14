@@ -94,7 +94,7 @@ h1{
 }
 
 .presentacion{
-    margin-top: 5rem;
+    margin-top: 3rem;
     color: black;
     grid-area: "presentacion";
 }
@@ -416,8 +416,8 @@ textarea{
   }
 
   .text-focus-in {
-	-webkit-animation: text-focus-in .7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in .7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in .5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in .5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   }
 
   
