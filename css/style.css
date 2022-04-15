@@ -217,6 +217,7 @@ textarea{
 .pregunta1{
     display: flex;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
 .pregunta-par{
