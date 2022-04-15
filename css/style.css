@@ -584,6 +584,7 @@ textarea{
 
     .pregunta1{
         flex-direction: column;
+        margin-top: 1px;
     }
 
         
