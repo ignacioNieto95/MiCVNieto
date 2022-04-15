@@ -194,7 +194,7 @@ textarea{
 }
 
 .carrusel{
-    height: 500px;
+    height: 300px;
     display: flex;
     align-items: center;
 }
@@ -504,6 +504,7 @@ textarea{
 @media (max-width: 670px){
     header nav .lista{
         flex-direction: column;
+        padding-left: 0;
     }
 
     header nav{
@@ -536,6 +537,10 @@ textarea{
 
     .gridExperiencia{
         flex-direction: column;
+    }
+
+    .chico{
+        width: 250px;
     }
 
     
