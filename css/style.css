@@ -582,6 +582,10 @@ textarea{
         margin: 5px;
     }
 
+    .pregunta1{
+        flex-direction: column;
+    }
+
         
 }
 
