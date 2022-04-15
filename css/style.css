@@ -341,19 +341,14 @@ textarea{
 }
 
 .gridFormacion{
-    display: grid;
-    grid-template-areas: 
-        "formacion1 formacion2"
-        "formacion3 formacion4"
-    ;
+    display: flex;
+    flex-direction: column;
 }
 
 .gridExperiencia{
-    display: grid;
-    grid-template-areas: 
-        "experiencia1 experiencia2"
-        "experiencia3 experiencia4"
-    ;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .gridInicio{
@@ -384,9 +379,7 @@ textarea{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
-    /* shorthand 
-    animation: focus-in-expand 1s ease 0s 1 normal none;
-    */ 
+    
   }
 
   .imagen-inicio {
@@ -405,9 +398,7 @@ textarea{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
-    /* shorthand 
-    animation: roll-in-blurred-top 1s ease 0s 1 normal none;
-    */ 
+    
   }
 
   .tracking-in-contract-bck-bottom {
@@ -543,9 +534,11 @@ textarea{
         padding: 1rem 0;
     }
 
-    .carrusel{
-        width: 70%;
+    .gridExperiencia{
+        flex-direction: column;
     }
+
+    
 
         
 }
