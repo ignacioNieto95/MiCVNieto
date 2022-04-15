@@ -31,26 +31,28 @@
             <h2>Consultas o Propuestas Laborales</h2>
             <p class="p-text">Para comunicarte conmigo, completa los datos en el formulario inferior y me comunicare con vos!</p>
         </div>
-        <div class="contact-form">
-            <div>
-                <form action="">
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" placeholder="Nombre">
-                    <br>
-                    <label for="apellido">Apellido</label>
-                    <input id="apellido" placeholder="Apellido">
-                    <br>
-                    <label for="email">Email</label>
-                    <input id="email" placeholder="@email.com">
-                </form>
+        <div class="datos">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nombre</span>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="text-area">
-                <textarea name="consulta" id="consultasVarias" cols="60" rows="10">Ingrese su consulta...</textarea>
-                <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Apellido</span>
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="enviar">
-                <a class="boton-enviar" href="../index.html">Enviar</a>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Email</span>
+                <input type="text" class="form-control" placeholder="@email" aria-label="Username" aria-describedby="basic-addon1">
             </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Empresa</span>
+                <input type="text" class="form-control" placeholder="Empresa" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group textoRespuesta">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-success">Enviar</button>
         </div>
     </main>
 
