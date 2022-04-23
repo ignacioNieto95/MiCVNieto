@@ -405,7 +405,7 @@ textarea{
     height: 100%;
   }
 
-.at-item {
+.animacion-presentacion {
     color: black;
     animation-name: focus-in-expand;
     animation-duration: 1s;
@@ -424,7 +424,7 @@ textarea{
     height: 100%;
   }
 
-  .item-imagen {
+  .animacion-imagen {
     background-color:#ffe672;
     animation-name: roll-in-blurred-top;
     animation-duration: 1s;
@@ -441,7 +441,7 @@ textarea{
 	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
 
-  .text-focus-in {
+  .animacion-hobbies {
 	-webkit-animation: text-focus-in .5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in .5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   }
